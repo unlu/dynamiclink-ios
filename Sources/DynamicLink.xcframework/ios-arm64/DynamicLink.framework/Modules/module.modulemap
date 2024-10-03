@@ -1,0 +1,6 @@
+framework module DynamicLink {
+  umbrella header "DynamicLink.h"
+  export *
+
+  module * { export * }
+}
