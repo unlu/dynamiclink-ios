@@ -6,6 +6,6 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Dynamic {
-  public static func hello() -> Swift.String
+public struct DynamicLink {
+  public static func getDeepLink(url: Foundation.URL) async throws -> Swift.String?
 }

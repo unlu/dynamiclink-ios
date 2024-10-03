@@ -6,35 +6,50 @@
     "children": [
       {
         "kind": "TypeDecl",
-        "name": "Dynamic",
-        "printedName": "Dynamic",
+        "name": "DynamicLink",
+        "printedName": "DynamicLink",
         "children": [
           {
             "kind": "Function",
-            "name": "hello",
-            "printedName": "hello()",
+            "name": "getDeepLink",
+            "printedName": "getDeepLink(url:)",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:11DynamicLink0A0V5helloSSyFZ",
-            "mangledName": "$s11DynamicLink0A0V5helloSSyFZ",
+            "usr": "s:11DynamicLinkAAV07getDeepB03urlSSSg10Foundation3URLV_tYaKFZ",
+            "mangledName": "$s11DynamicLinkAAV07getDeepB03urlSSSg10Foundation3URLV_tYaKFZ",
             "moduleName": "DynamicLink",
             "static": true,
             "declAttributes": [
               "AccessControl"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
-        "usr": "s:11DynamicLink0A0V",
-        "mangledName": "$s11DynamicLink0A0V",
+        "usr": "s:11DynamicLinkAAV",
+        "mangledName": "$s11DynamicLinkAAV",
         "moduleName": "DynamicLink",
         "declAttributes": [
           "AccessControl",
